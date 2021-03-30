@@ -53,44 +53,41 @@
     <UnityVersion>2020.3.0f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\EyeAdaptationModelEditor.cs" />
-    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
-    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
-    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\FogModelEditor.cs" />
-    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\ChromaticAberrationEditor.cs" />
-    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Monitors\ParadeMonitor.cs" />
-    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\DitheringModelEditor.cs" />
-    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Utils\CurveEditor.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\PropertyDrawers\GetSetDrawer.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
-    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\DefaultPostFxModelEditor.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\DepthOfFieldModelEditor.cs" />
+    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\PropertyDrawers\MinDrawer.cs" />
+    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\PostProcessingFactory.cs" />
+    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\ScreenSpaceReflectionModelEditor.cs" />
+    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\BuiltinDebugViewsEditor.cs" />
+    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\VignetteModelEditor.cs" />
+    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
+    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
+    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Utils\CurveEditor.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\PostProcessingModelEditor.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\GrainModelEditor.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\MotionBlurModelEditor.cs" />
-    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\PropertyDrawers\MinDrawer.cs" />
+    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Utils\FxStyles.cs" />
+    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\UserLutModelEditor.cs" />
+    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\PostProcessingInspector.cs" />
+    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\PostProcessingBehaviourEditor.cs" />
+    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\EyeAdaptationModelEditor.cs" />
+    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
+    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\FogModelEditor.cs" />
+    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Monitors\WaveformMonitor.cs" />
+    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Utils\EditorGUIHelper.cs" />
+    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\ChromaticAberrationEditor.cs" />
+    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Monitors\ParadeMonitor.cs" />
+    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\DitheringModelEditor.cs" />
+    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\DefaultPostFxModelEditor.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Utils\EditorResources.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\PostProcessingMonitor.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Monitors\VectorscopeMonitor.cs" />
-    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\PostProcessingFactory.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\BloomModelEditor.cs" />
-    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\ScreenSpaceReflectionModelEditor.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\ColorGradingModelEditor.cs" />
-    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Utils\FxStyles.cs" />
-    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\BuiltinDebugViewsEditor.cs" />
-    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
-    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\VignetteModelEditor.cs" />
-    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Monitors\WaveformMonitor.cs" />
-    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\PostProcessingInspector.cs" />
-    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Models\UserLutModelEditor.cs" />
-    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\PostProcessingBehaviourEditor.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\PropertyDrawers\TrackballGroupDrawer.cs" />
-    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Utils\EditorGUIHelper.cs" />
-    <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -317,9 +314,6 @@
     </Reference>
     <Reference Include="UnityEditor.Graphs">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.WebGL.Extensions">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
