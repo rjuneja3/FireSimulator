@@ -83,6 +83,7 @@
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\ObjectResetter.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
     <Compile Include="Assets\Unity Assets\Ultimate 10 Plus Shaders\Scripts\U10PS_SnowOverTime.cs" />
+    <Compile Include="Assets\Scripts\FireController.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
@@ -145,7 +146,6 @@
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\BloomComponent.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\DitheringModel.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\FPSCounter.cs" />
-    <Compile Include="Assets\Scripts\FireController.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />

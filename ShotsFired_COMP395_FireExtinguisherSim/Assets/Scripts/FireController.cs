@@ -16,6 +16,7 @@ public class FireController : MonoBehaviour
     public bool onFire = false;
     public bool burnOthers = false;
     public bool isExtinguished = false;
+    public bool isExtinguishing = false;
 
 
     // Start is called before the first frame update
@@ -81,23 +82,33 @@ public class FireController : MonoBehaviour
         if (other.tag == "Fire")
         {
             // checks if other is on fire
-            if (otherOnFire = other.GetComponent<FireController>().BurnOthersStatus() == true && onFire == false && isExtinguished == false)
+            if (otherOnFire = other.GetComponent<FireController>().BurnOthersStatus() == true && onFire == false && isExtinguished == false && isExtinguishing == false)
             {
                 onFire = true;
                 StartFire();
-            }            
+            }
         }
 
         if (other.tag == "FE")
         {
+            isExtinguishing = true;            
+
             if (timeExtinguishingFire >= timeToExtinguishFire && onFire == true && isExtinguished == false)
             {
                 FireExtinguished();
             }
             else if (timeExtinguishingFire < timeToExtinguishFire && onFire == true && isExtinguished == false)
-            {
+            {                
                 timeExtinguishingFire++;
             }
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "FE")
+        {
+            isExtinguishing = false;
         }
     }
 }
