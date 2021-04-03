@@ -19,11 +19,11 @@ public class U10PS_DissolveOverTime : MonoBehaviour
     {
         Material[] mats = meshRenderer.materials;
 
-
-        if (Mathf.Sin(t * speed) < 0)
-        {
-            t = 20.0f;
-        }
+        // loops effect
+        //if (Mathf.Sin(t * speed) < 0)
+        //{
+        //    t = 20.0f;
+        //}
 
         //Debug.Log(Mathf.Sin(t * speed));
         //Debug.Log(t);
