@@ -146,6 +146,7 @@
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\BloomComponent.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\DitheringModel.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\FPSCounter.cs" />
+    <Compile Include="Assets\Scripts\ObjectFireController.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />

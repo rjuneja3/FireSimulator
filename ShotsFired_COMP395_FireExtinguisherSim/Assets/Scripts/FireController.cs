@@ -89,6 +89,15 @@ public class FireController : MonoBehaviour
             }
         }
 
+        if (other.tag == "ObjectFire")
+        {
+            if (otherOnFire = other.GetComponent<ObjectFireController>().BurnOthersStatus() == true && onFire == false && isExtinguished == false && isExtinguishing == false)
+            {
+                onFire = true;
+                StartFire();
+            }
+        }
+
         if (other.tag == "FE")
         {
             isExtinguishing = true;            
