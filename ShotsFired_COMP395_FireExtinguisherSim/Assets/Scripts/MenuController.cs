@@ -22,7 +22,7 @@ public class MenuController : MonoBehaviour
     //Menu and end game scene functions.
     public void PlayGame()
     {
-        SceneManager.LoadScene("LevelScene");
+        SceneManager.LoadScene("DifficultyScene");
     }
     public void ExitGame()
     {
@@ -43,6 +43,19 @@ public class MenuController : MonoBehaviour
     public void DifficultyScene()
     {
         SceneManager.LoadScene("DifficultyScene");
+    }
+
+    public void EasyScene()
+    {
+        SceneManager.LoadScene("Environment Test Scene");
+    }
+    public void MediumScene()
+    {
+        //SceneManager.LoadScene("DifficultyScene");
+    }
+    public void HardScene()
+    {
+        //SceneManager.LoadScene("DifficultyScene");
     }
     //Option function(s).
     public AudioMixer audioMixer;
