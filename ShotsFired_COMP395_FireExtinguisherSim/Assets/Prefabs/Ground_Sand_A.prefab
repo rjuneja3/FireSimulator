@@ -231,6 +231,7 @@ MonoBehaviour:
   onFire: 0
   burnOthers: 0
   isExtinguished: 0
+  isExtinguishing: 0
 --- !u!1 &4359204356012010735
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,7 +248,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4359204356011716815
 Transform:
