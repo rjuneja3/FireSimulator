@@ -47,11 +47,11 @@ public class MenuController : MonoBehaviour
 
     public void EasyScene()
     {
-        SceneManager.LoadScene("Environment Test Scene");
+        SceneManager.LoadScene("DemoScene");
     }
     public void MediumScene()
     {
-        //SceneManager.LoadScene("DifficultyScene");
+        SceneManager.LoadScene("Environment Test Scene");
     }
     public void HardScene()
     {

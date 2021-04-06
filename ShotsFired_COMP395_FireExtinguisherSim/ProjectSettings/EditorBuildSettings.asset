@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu Scenes/DifficultyScene.unity
     guid: 56dc3d324ce386245a4bdf23324ead86
   - enabled: 1
+    path: Assets/Scenes/DemoScene.unity
+    guid: 00ea5a96f0b4e3644a1ed8a6b95764fc
+  - enabled: 1
     path: Assets/Scenes/Environment Test Scene.unity
     guid: 6f8581c9fa203a749b8943a0d271cd1a
   m_configObjects: {}

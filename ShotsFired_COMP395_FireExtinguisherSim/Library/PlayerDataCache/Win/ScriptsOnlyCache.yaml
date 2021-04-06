@@ -3,14 +3,11 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - FireController
     - MenuController
+    - ObjectFireController
+    - PlayerController
     - U10PS_DissolveOverTime
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -25,6 +22,61 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
   sceneClasses:
+    Assets/Scenes/DemoScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 2410}
+    - Class: 114
+      Script: {instanceID: 2616}
+    - Class: 114
+      Script: {instanceID: 3028}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
     Assets/Scenes/Environment Test Scene.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -46,6 +98,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
@@ -57,9 +111,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2416}
+      Script: {instanceID: 2410}
     - Class: 114
-      Script: {instanceID: 2622}
+      Script: {instanceID: 2616}
+    - Class: 114
+      Script: {instanceID: 2846}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -90,19 +146,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1492}
     - Class: 114
-      Script: {instanceID: 1572}
+      Script: {instanceID: 1566}
     - Class: 114
-      Script: {instanceID: 1582}
+      Script: {instanceID: 1576}
     - Class: 114
-      Script: {instanceID: 2844}
+      Script: {instanceID: 2838}
     - Class: 114
-      Script: {instanceID: 3042}
+      Script: {instanceID: 3038}
     - Class: 114
-      Script: {instanceID: 3296}
+      Script: {instanceID: 3292}
     - Class: 114
-      Script: {instanceID: 3646}
+      Script: {instanceID: 3642}
     - Class: 114
-      Script: {instanceID: 3792}
+      Script: {instanceID: 3788}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -149,19 +205,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1492}
     - Class: 114
-      Script: {instanceID: 1572}
+      Script: {instanceID: 1566}
     - Class: 114
-      Script: {instanceID: 1582}
+      Script: {instanceID: 1576}
     - Class: 114
-      Script: {instanceID: 2844}
+      Script: {instanceID: 2838}
     - Class: 114
-      Script: {instanceID: 3042}
+      Script: {instanceID: 3038}
     - Class: 114
-      Script: {instanceID: 3296}
+      Script: {instanceID: 3292}
     - Class: 114
-      Script: {instanceID: 3646}
+      Script: {instanceID: 3642}
     - Class: 114
-      Script: {instanceID: 3792}
+      Script: {instanceID: 3788}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -204,21 +260,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1492}
     - Class: 114
-      Script: {instanceID: 1572}
+      Script: {instanceID: 1566}
     - Class: 114
-      Script: {instanceID: 1582}
+      Script: {instanceID: 1576}
     - Class: 114
-      Script: {instanceID: 1788}
+      Script: {instanceID: 1782}
     - Class: 114
-      Script: {instanceID: 2844}
+      Script: {instanceID: 2838}
     - Class: 114
-      Script: {instanceID: 3042}
+      Script: {instanceID: 3038}
     - Class: 114
-      Script: {instanceID: 3296}
+      Script: {instanceID: 3292}
     - Class: 114
-      Script: {instanceID: 3646}
+      Script: {instanceID: 3642}
     - Class: 114
-      Script: {instanceID: 3792}
+      Script: {instanceID: 3788}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -624,6 +680,12 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
+      Hash: 61d0ad828b1a29410661d9019ece1b2a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObjectFireController
+  - hash:
+      serializedVersion: 2
       Hash: ef5c43f921427d03730f6ea4c848f07d
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -903,5 +965,6 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Menu Scenes/MenuScene.unity
   - Assets/Scenes/Menu Scenes/OptionScene.unity
   - Assets/Scenes/Menu Scenes/DifficultyScene.unity
+  - Assets/Scenes/DemoScene.unity
   - Assets/Scenes/Environment Test Scene.unity
   playerPath: C:/Users/timho/Desktop/FireSimulator/ShotsFired_COMP395_FireExtinguisherSim/Builds/ShotsFired_COMP395_FireExtinguisherSim.exe
