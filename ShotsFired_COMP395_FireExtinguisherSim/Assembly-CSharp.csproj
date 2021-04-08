@@ -92,6 +92,7 @@
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\SmoothFollow.cs" />
     <Compile Include="Assets\Unity Assets\Ultimate 10 Plus Shaders\Scripts\U10PS_DissolveOverTime.cs" />
+    <Compile Include="Assets\Scripts\GunScript.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\PostProcessingComponent.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\VignetteComponent.cs" />
@@ -144,7 +145,7 @@
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\BloomComponent.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\DitheringModel.cs" />
     <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\FPSCounter.cs" />
-    <Compile Include="Assets\Scripts\GunScript.cs" />
+    <Compile Include="Assets\Scripts\PickUpController.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
