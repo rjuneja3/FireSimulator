@@ -138,10 +138,10 @@
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\inspectors\TimelineInspectorUtility.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\CustomEditors\TrackEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\Manipulators\Sequence\SelectAndMoveItem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\Items\ItemsGroup.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\Window\TimelineWindow_StateChange.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\Signals\Styles.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\Utilities\Scopes\LabelWidthScope.cs" />
+     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\Items\ItemsGroup.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\Utilities\TypeUtility.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\inspectors\MarkerInspector.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.6\Editor\Attributes\ShortcutAttribute.cs" />

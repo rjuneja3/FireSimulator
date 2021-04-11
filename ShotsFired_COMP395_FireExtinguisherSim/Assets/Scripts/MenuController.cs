@@ -14,6 +14,7 @@ public class MenuController : MonoBehaviour
     private void Start()
     {
         Cursor.lockState = CursorLockMode.None;
+        GameObject.FindGameObjectWithTag("Music").GetComponent<MusicScript>().PlayMusic();
     }
     void Update()
     {
