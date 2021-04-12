@@ -243,9 +243,10 @@ GameObject:
   - component: {fileID: 4359204356011716815}
   - component: {fileID: 4359204356010914031}
   - component: {fileID: 4359204356009816623}
+  - component: {fileID: 6237340187708426315}
   m_Layer: 0
   m_Name: Ground_Sand_A
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -314,3 +315,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6237340187708426315
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4359204356012010735}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.39999998, y: 0.39999998, z: 0.39999998}
+  m_Center: {x: 0, y: 0.19999999, z: 0}
