@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -12056,6 +12056,14 @@ PrefabInstance:
       propertyPath: bullet
       value: 
       objectReference: {fileID: 1085979944}
+    - target: {fileID: 1568649235192171248, guid: 43c8da2d84b41bd4390586af8fd25e7f, type: 3}
+      propertyPath: bulletLeft
+      value: 3000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568649235192171248, guid: 43c8da2d84b41bd4390586af8fd25e7f, type: 3}
+      propertyPath: bulletPerTap
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2633423998812044342, guid: 43c8da2d84b41bd4390586af8fd25e7f, type: 3}
       propertyPath: fpscam
       value: 
