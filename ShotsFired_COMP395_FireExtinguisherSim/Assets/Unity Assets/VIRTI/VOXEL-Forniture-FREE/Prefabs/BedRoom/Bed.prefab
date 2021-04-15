@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4616797306407750}
   - component: {fileID: 33526466041040494}
   - component: {fileID: 23236805607743834}
+  - component: {fileID: 2546416231638605574}
   m_Layer: 0
   m_Name: pillow
   m_TagString: Untagged
@@ -55,6 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -79,6 +81,29 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2546416231638605574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154670744341594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59080f47bf0753845b40773c6ce60c17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  burn: {fileID: 0}
+  burntMaterial: {fileID: 0}
+  timeToExtinguishFire: 300
+  timeExtinguishingFire: 0
+  burnTime: 15
+  otherOnFire: 0
+  onFire: 1
+  burnOthers: 0
+  isExtinguished: 0
+  isExtinguishing: 0
 --- !u!1 &1377427385843918
 GameObject:
   m_ObjectHideFlags: 0
@@ -88,9 +113,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4827919708756728}
+  - component: {fileID: 143572563}
   m_Layer: 0
   m_Name: Bed
-  m_TagString: Untagged
+  m_TagString: ObjectFire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -104,13 +130,35 @@ Transform:
   m_GameObject: {fileID: 1377427385843918}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children:
   - {fileID: 4099572150378080}
   - {fileID: 4616797306407750}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &143572563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377427385843918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59080f47bf0753845b40773c6ce60c17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  burn: {fileID: 0}
+  burntMaterial: {fileID: 2100000, guid: 9579d8b8f2c08e14b8bcaf581a77f73c, type: 2}
+  timeToExtinguishFire: 300
+  timeExtinguishingFire: 0
+  burnTime: 15
+  otherOnFire: 0
+  onFire: 0
+  burnOthers: 0
+  isExtinguished: 0
+  isExtinguishing: 0
 --- !u!1 &1970281811821320
 GameObject:
   m_ObjectHideFlags: 0
@@ -124,6 +172,7 @@ GameObject:
   - component: {fileID: 23629208350723390}
   - component: {fileID: 65589008282966230}
   - component: {fileID: 65193048600214120}
+  - component: {fileID: 2660567067004331762}
   m_Layer: 0
   m_Name: bed
   m_TagString: Untagged
@@ -168,6 +217,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -194,6 +244,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &65589008282966230
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -220,3 +271,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.005316498, y: 0.024999995, z: 0.03097243}
   m_Center: {x: 0.02734169, y: -0.000000089406974, z: 0.0056066257}
+--- !u!114 &2660567067004331762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970281811821320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59080f47bf0753845b40773c6ce60c17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  burn: {fileID: 0}
+  burntMaterial: {fileID: 2100000, guid: 9579d8b8f2c08e14b8bcaf581a77f73c, type: 2}
+  timeToExtinguishFire: 300
+  timeExtinguishingFire: 0
+  burnTime: 15
+  otherOnFire: 0
+  onFire: 0
+  burnOthers: 0
+  isExtinguished: 0
+  isExtinguishing: 0
