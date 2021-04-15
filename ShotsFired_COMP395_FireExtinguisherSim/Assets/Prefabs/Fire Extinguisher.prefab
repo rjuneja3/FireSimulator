@@ -213,7 +213,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ab197379846e940916cf73d3d7607e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 3288900332803445301, guid: acb12ab1fa0133545a0494f561ae36fd, type: 3}
+  fuel: 5000
+  fuelTotal: 5000
+  fuelText: {fileID: 0}
+  fuelTotalText: {fileID: 0}
+  bullet: {fileID: 1181897826320954193}
 --- !u!114 &5054942455291760643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -569,6 +573,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acb12ab1fa0133545a0494f561ae36fd, type: 3}
+--- !u!1 &1181897826320954193 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3288900332803445301, guid: acb12ab1fa0133545a0494f561ae36fd, type: 3}
+  m_PrefabInstance: {fileID: 4450247624230134116}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7241868352357123734 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6431769495502628850, guid: acb12ab1fa0133545a0494f561ae36fd, type: 3}

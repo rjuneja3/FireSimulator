@@ -48,15 +48,15 @@ public class MenuController : MonoBehaviour
 
     public void EasyScene()
     {
-        SceneManager.LoadScene("DemoScene");
+        SceneManager.LoadScene("TestLevel1");
     }
     public void MediumScene()
     {
-        SceneManager.LoadScene("Environment Test Scene");
+        SceneManager.LoadScene("Level2");
     }
     public void HardScene()
     {
-        //SceneManager.LoadScene("DifficultyScene");
+        SceneManager.LoadScene("Level3");
     }
     //Option function(s).
     public AudioMixer audioMixer;

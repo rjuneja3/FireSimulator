@@ -224,7 +224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   burn: {fileID: 1768262251223411645}
   burntMaterial: {fileID: 2100000, guid: 9579d8b8f2c08e14b8bcaf581a77f73c, type: 2}
-  timeToExtinguishFire: 300
+  timeToExtinguishFire: 100
   timeExtinguishingFire: 0
   burnTime: 15
   otherOnFire: 0

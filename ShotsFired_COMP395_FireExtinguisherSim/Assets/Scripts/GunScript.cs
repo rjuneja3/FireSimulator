@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GunScript : MonoBehaviour
 {
     public int fuel;
+    public int fuelTotal;
+    public Text fuelText;
+    public Text fuelTotalText;
     public GameObject bullet;
     // Start is called before the first frame update
     void Start()
@@ -31,6 +35,15 @@ public class GunScript : MonoBehaviour
         }
         else 
             feBullet.enabled = false;
-        
+        fuelText.text = fuel.ToString("0");
+        fuelTotalText.text = "/" + fuelTotal.ToString("0");
+        if (fuel <= 1500 && fuel >= 500)
+        {
+            fuelText.color = Color.yellow;
+        }
+        if (fuel <= 500)
+        {
+            fuelText.color = Color.red;
+        }
     }
 }
