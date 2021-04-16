@@ -100,6 +100,7 @@
      <Compile Include="Assets\Scripts\ObjectFireController.cs" />
      <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\VignetteModel.cs" />
      <Compile Include="Assets\Unity Assets\Ultimate 10 Plus Shaders\Scripts\U10PS_ExampleReview.cs" />
+     <Compile Include="Assets\Scripts\MusicScript.cs" />
      <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\GrainModel.cs" />
      <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
      <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
@@ -140,7 +141,6 @@
      <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\BloomComponent.cs" />
      <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\DitheringModel.cs" />
      <Compile Include="Assets\Unity Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\FPSCounter.cs" />
-     <Compile Include="Assets\Scripts\MusicScript.cs" />
  <Reference Include="UnityEngine">
  <HintPath>D:/Unity Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll</HintPath>
  </Reference>

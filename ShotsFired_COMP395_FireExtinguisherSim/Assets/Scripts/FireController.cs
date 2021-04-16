@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class FireController : MonoBehaviour
 {
@@ -17,6 +18,10 @@ public class FireController : MonoBehaviour
     public bool burnOthers = false;
     public bool isExtinguished = false;
     public bool isExtinguishing = false;
+
+    public Text timeToExtinguishTxt;
+    public Text timeExtinguishingTxt;
+    public Text objectNameTxt;
 
 
     // Start is called before the first frame update
@@ -100,8 +105,9 @@ public class FireController : MonoBehaviour
 
         if (other.tag == "FE")
         {
-            isExtinguishing = true;            
-
+            isExtinguishing = true;
+            objectNameTxt.text = transform.parent.name;
+            timeToExtinguishTxt.text = timeToExtinguishFire.ToString();
             if (timeExtinguishingFire >= timeToExtinguishFire && onFire == true && isExtinguished == false)
             {
                 FireExtinguished();
@@ -109,6 +115,7 @@ public class FireController : MonoBehaviour
             else if (timeExtinguishingFire < timeToExtinguishFire && onFire == true && isExtinguished == false)
             {                
                 timeExtinguishingFire++;
+                timeExtinguishingTxt.text = timeExtinguishingFire.ToString();
             }
         }
     }
