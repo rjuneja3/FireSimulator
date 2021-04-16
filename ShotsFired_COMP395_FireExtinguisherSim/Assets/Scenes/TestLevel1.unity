@@ -7288,7 +7288,6 @@ GameObject:
   - component: {fileID: 574610030}
   - component: {fileID: 574610029}
   - component: {fileID: 574610028}
-  - component: {fileID: 574610027}
   - component: {fileID: 574610026}
   m_Layer: 0
   m_Name: Main Camera
@@ -7337,18 +7336,6 @@ MonoBehaviour:
     m_Bits: 4294967295
   mouseSensitivity: 100
   playerBody: {fileID: 908158496}
---- !u!114 &574610027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 574610024}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!81 &574610028
 AudioListener:
   m_ObjectHideFlags: 0
